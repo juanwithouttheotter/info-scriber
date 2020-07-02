@@ -4,11 +4,7 @@
         "text": "Test text",
         "id": 1
     },
-    {
-        "title": "test 2",
-        "text": "text 2",
-        "id": 2
-    },
+    null,
     null,
     {
         "title": "test 4",
@@ -35,14 +31,21 @@
         "text": "text 8",
         "id": 8
     },
+    null,
+    null,
     {
-        "title": "test 9",
-        "text": "text 9",
-        "id": 9
+        "title": "test 22",
+        "text": "text 22",
+        "id": 11
     },
     {
-        "title": "test 10",
-        "text": "text 10",
-        "id": 10
+        "title": "new note",
+        "text": "this is a functional note",
+        "id": 12
+    },
+    {
+        "title": "test 26",
+        "text": "this is new text ",
+        "id": 13
     }
 ]

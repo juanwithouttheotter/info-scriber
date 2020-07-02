@@ -13,7 +13,8 @@ exports.route = (app, fs) => {
             if (err) {
                 throw err;
             }
-             res.send(JSON.parse(data));
+            console.log(JSON.parse(data));
+             res.json(JSON.parse(data));
         });
     });
 
@@ -30,7 +31,8 @@ exports.route = (app, fs) => {
                 if (err) {
                     throw err;
                 };
-                console.log('new notes added');
+                console.log('new notes added',notes);
+                
                 res.json({created: true, ...notes});
             });
         });

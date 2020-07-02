@@ -10,7 +10,8 @@ const PORT = 9000;
 app.use(cors());
 app.use(express.urlencoded({extended: true}));
 app.use(bodyParser.json());
-
+//making the folder staticly availble
+app.use(express.static('public'));
 apiRoutes.route(app,fs);
 htmlRoutes(app);
 
