@@ -15,8 +15,8 @@
 * express body-parser middleware
 
 ### Usage
-This group project uses Open Weather API and The Movie Database API.
-When the user enters city of choice the user is presented a Movie to watch (poster, title, original release date, overview, and trailer if available) that is base off the the current weather in that city. User may choose another city or the same city to get a new result and the previous movie is saved temporarily at the bottom of the start page.
+The app is used primarily to save notes taken by the user. The user is also able to view all of their notes and deleted any note. 
+For this project, I created the back end routes used and connected them to the front end of the application.  
 
 ### Contribution
 
